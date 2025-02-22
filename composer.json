@@ -10,10 +10,6 @@
             "Miladhspr\\LaravelEncryptable\\": "src/"
         }
     },
-    "require": {
-        "illuminate/support": "^10.0",
-        "illuminate/database": "^10.0"
-    },
     "extra": {
         "laravel": {
             "providers": [
