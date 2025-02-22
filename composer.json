@@ -1,0 +1,31 @@
+{
+    "name": "miladhspr/laravel-encryptable",
+    "description": "Laravel automatic attribute encryption",
+    "type": "library",
+    "license": "MIT",
+
+
+    "autoload": {
+        "psr-4": {
+            "Miladhspr\\LaravelEncryptable\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "10.x-dev",
+        "illuminate/database": "10.x-dev"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MiladHspr\\Encryptable\\EncryptableServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "miladhspr",
+            "email": "miladhassanpour3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
