@@ -11,8 +11,8 @@
         }
     },
     "require": {
-        "illuminate/support": "10.x-dev",
-        "illuminate/database": "10.x-dev"
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0"
     },
     "extra": {
         "laravel": {
